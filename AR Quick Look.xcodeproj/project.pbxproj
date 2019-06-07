@@ -14,6 +14,14 @@
 		1AEFE4AA22AAB62300B28D1C /* ARContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFE4A922AAB62300B28D1C /* ARContentTableViewController.swift */; };
 		1AEFE4AD22AAB73C00B28D1C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFE4AB22AAB73C00B28D1C /* DetailTableViewCell.swift */; };
 		1AEFE4AE22AAB73C00B28D1C /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4AC22AAB73C00B28D1C /* DetailTableViewCell.xib */; };
+		1AEFE4B922AAC04300B28D1C /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B122AAC04300B28D1C /* wheelbarrow.usdz */; };
+		1AEFE4BA22AAC04300B28D1C /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B222AAC04300B28D1C /* wateringcan.usdz */; };
+		1AEFE4BB22AAC04300B28D1C /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B322AAC04300B28D1C /* teapot.usdz */; };
+		1AEFE4BC22AAC04300B28D1C /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B422AAC04300B28D1C /* gramophone.usdz */; };
+		1AEFE4BD22AAC04300B28D1C /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B522AAC04300B28D1C /* cupandsaucer.usdz */; };
+		1AEFE4BE22AAC04300B28D1C /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B622AAC04300B28D1C /* redchair.usdz */; };
+		1AEFE4BF22AAC04300B28D1C /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B722AAC04300B28D1C /* tulip.usdz */; };
+		1AEFE4C022AAC04300B28D1C /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE4B822AAC04300B28D1C /* plantpot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		1AEFE4A922AAB62300B28D1C /* ARContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentTableViewController.swift; sourceTree = "<group>"; };
 		1AEFE4AB22AAB73C00B28D1C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		1AEFE4AC22AAB73C00B28D1C /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		1AEFE4B122AAC04300B28D1C /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		1AEFE4B222AAC04300B28D1C /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wateringcan.usdz; sourceTree = "<group>"; };
+		1AEFE4B322AAC04300B28D1C /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = teapot.usdz; sourceTree = "<group>"; };
+		1AEFE4B422AAC04300B28D1C /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = gramophone.usdz; sourceTree = "<group>"; };
+		1AEFE4B522AAC04300B28D1C /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		1AEFE4B622AAC04300B28D1C /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
+		1AEFE4B722AAC04300B28D1C /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		1AEFE4B822AAC04300B28D1C /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plantpot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		1AEFE49622AAB48400B28D1C /* AR Quick Look */ = {
 			isa = PBXGroup;
 			children = (
+				1AEFE4B022AAC04300B28D1C /* AR Models */,
 				1AEFE49722AAB48400B28D1C /* AppDelegate.swift */,
 				1AEFE49B22AAB48400B28D1C /* Main.storyboard */,
 				1AEFE49E22AAB48600B28D1C /* Assets.xcassets */,
@@ -68,6 +85,21 @@
 				1AEFE4AC22AAB73C00B28D1C /* DetailTableViewCell.xib */,
 			);
 			path = "AR Quick Look";
+			sourceTree = "<group>";
+		};
+		1AEFE4B022AAC04300B28D1C /* AR Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AEFE4B122AAC04300B28D1C /* wheelbarrow.usdz */,
+				1AEFE4B222AAC04300B28D1C /* wateringcan.usdz */,
+				1AEFE4B322AAC04300B28D1C /* teapot.usdz */,
+				1AEFE4B422AAC04300B28D1C /* gramophone.usdz */,
+				1AEFE4B522AAC04300B28D1C /* cupandsaucer.usdz */,
+				1AEFE4B622AAC04300B28D1C /* redchair.usdz */,
+				1AEFE4B722AAC04300B28D1C /* tulip.usdz */,
+				1AEFE4B822AAC04300B28D1C /* plantpot.usdz */,
+			);
+			path = "AR Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +162,16 @@
 			files = (
 				1AEFE4A222AAB48600B28D1C /* LaunchScreen.storyboard in Resources */,
 				1AEFE49F22AAB48600B28D1C /* Assets.xcassets in Resources */,
+				1AEFE4B922AAC04300B28D1C /* wheelbarrow.usdz in Resources */,
+				1AEFE4BC22AAC04300B28D1C /* gramophone.usdz in Resources */,
+				1AEFE4BB22AAC04300B28D1C /* teapot.usdz in Resources */,
+				1AEFE4BE22AAC04300B28D1C /* redchair.usdz in Resources */,
+				1AEFE4BA22AAC04300B28D1C /* wateringcan.usdz in Resources */,
 				1AEFE4AE22AAB73C00B28D1C /* DetailTableViewCell.xib in Resources */,
+				1AEFE4BD22AAC04300B28D1C /* cupandsaucer.usdz in Resources */,
+				1AEFE4BF22AAC04300B28D1C /* tulip.usdz in Resources */,
 				1AEFE49D22AAB48400B28D1C /* Main.storyboard in Resources */,
+				1AEFE4C022AAC04300B28D1C /* plantpot.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
