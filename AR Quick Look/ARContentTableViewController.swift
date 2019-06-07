@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import QuickLook
 
-class ARContentTableViewController: UITableViewController {
+class ARContentTableViewController: UITableViewController, QLPreviewControllerDelegate, QLPreviewControllerDataSource {
 
     let modelsName = ["wheelbarrow", "wateringcan", "teapot", "gramophone", "cupandsaucer", "redchair", "tulip", "plantpot"]
+    var selectedModelIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +39,27 @@ class ARContentTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        selectedModelIndex = indexPath.row
+        
+        let previewController = QLPreviewController()
+        previewController.dataSource = self
+        previewController.delegate = self
+        present(previewController, animated: true)
+    }
+    
+    // MARK:- ARQuickLook Methods
+    
+    func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
+        return 1
+    }
+    
+    func previewController(_ controller: QLPreviewController, previewItemAt index: Int) -> QLPreviewItem {
+        let url = Bundle.main.url(forResource: modelsName[selectedModelIndex], withExtension: "usdz")!
+        return url as QLPreviewItem
     }
 
 }
