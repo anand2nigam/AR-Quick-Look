@@ -11,7 +11,7 @@ import QuickLook
 
 class ARContentTableViewController: UITableViewController, QLPreviewControllerDelegate, QLPreviewControllerDataSource {
 
-    let modelsName = ["wheelbarrow", "wateringcan", "teapot", "gramophone", "cupandsaucer", "redchair", "tulip", "plantpot"]
+    let modelsName = ["wheelbarrow", "wateringcan", "teapot", "gramophone", "cupandsaucer", "redchair", "tulip", "plantpot", "fender", "plane", "car", "retro tv", "robot", "drummer"]
     var selectedModelIndex = 0
     
     override func viewDidLoad() {
@@ -30,9 +30,10 @@ class ARContentTableViewController: UITableViewController, QLPreviewControllerDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "modelDetailCell", for: indexPath) as! DetailTableViewCell
         let modelName = modelsName[indexPath.row]
         cell.modelTitleLabel.text = modelName.capitalized
-        cell.modelImageView.image = UIImage(named: "\(modelName)")
-
-        // Configure the cell...
+        if let image = UIImage(named: "\(modelName)") {
+            cell.modelImageView.image = image
+        }
+        
 
         return cell
     }

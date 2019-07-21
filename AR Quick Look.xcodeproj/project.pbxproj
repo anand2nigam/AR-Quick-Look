@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A813E5922E443AD009A7BB5 /* drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E5822E443AC009A7BB5 /* drummer.usdz */; };
+		1A813E5B22E443C7009A7BB5 /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E5A22E443C7009A7BB5 /* robot.usdz */; };
+		1A813E5D22E443D7009A7BB5 /* retro tv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E5C22E443D7009A7BB5 /* retro tv.usdz */; };
+		1A813E5F22E443EA009A7BB5 /* car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E5E22E443EA009A7BB5 /* car.usdz */; };
+		1A813E6122E44405009A7BB5 /* plane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E6022E44405009A7BB5 /* plane.usdz */; };
+		1A813E6322E44420009A7BB5 /* fender.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A813E6222E44420009A7BB5 /* fender.usdz */; };
 		1AEFE49822AAB48400B28D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEFE49722AAB48400B28D1C /* AppDelegate.swift */; };
 		1AEFE49D22AAB48400B28D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE49B22AAB48400B28D1C /* Main.storyboard */; };
 		1AEFE49F22AAB48600B28D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEFE49E22AAB48600B28D1C /* Assets.xcassets */; };
@@ -25,6 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A813E5822E443AC009A7BB5 /* drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = drummer.usdz; sourceTree = "<group>"; };
+		1A813E5A22E443C7009A7BB5 /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = robot.usdz; sourceTree = "<group>"; };
+		1A813E5C22E443D7009A7BB5 /* retro tv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro tv.usdz"; sourceTree = "<group>"; };
+		1A813E5E22E443EA009A7BB5 /* car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = car.usdz; sourceTree = "<group>"; };
+		1A813E6022E44405009A7BB5 /* plane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plane.usdz; sourceTree = "<group>"; };
+		1A813E6222E44420009A7BB5 /* fender.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = fender.usdz; sourceTree = "<group>"; };
 		1AEFE49422AAB48400B28D1C /* AR Quick Look.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Quick Look.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEFE49722AAB48400B28D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AEFE49C22AAB48400B28D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +102,12 @@
 		1AEFE4B022AAC04300B28D1C /* AR Models */ = {
 			isa = PBXGroup;
 			children = (
+				1A813E6222E44420009A7BB5 /* fender.usdz */,
+				1A813E6022E44405009A7BB5 /* plane.usdz */,
+				1A813E5E22E443EA009A7BB5 /* car.usdz */,
+				1A813E5C22E443D7009A7BB5 /* retro tv.usdz */,
+				1A813E5A22E443C7009A7BB5 /* robot.usdz */,
+				1A813E5822E443AC009A7BB5 /* drummer.usdz */,
 				1AEFE4B122AAC04300B28D1C /* wheelbarrow.usdz */,
 				1AEFE4B222AAC04300B28D1C /* wateringcan.usdz */,
 				1AEFE4B322AAC04300B28D1C /* teapot.usdz */,
@@ -161,10 +179,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AEFE4A222AAB48600B28D1C /* LaunchScreen.storyboard in Resources */,
+				1A813E5F22E443EA009A7BB5 /* car.usdz in Resources */,
+				1A813E6322E44420009A7BB5 /* fender.usdz in Resources */,
 				1AEFE49F22AAB48600B28D1C /* Assets.xcassets in Resources */,
 				1AEFE4B922AAC04300B28D1C /* wheelbarrow.usdz in Resources */,
+				1A813E5D22E443D7009A7BB5 /* retro tv.usdz in Resources */,
+				1A813E6122E44405009A7BB5 /* plane.usdz in Resources */,
 				1AEFE4BC22AAC04300B28D1C /* gramophone.usdz in Resources */,
 				1AEFE4BB22AAC04300B28D1C /* teapot.usdz in Resources */,
+				1A813E5922E443AD009A7BB5 /* drummer.usdz in Resources */,
+				1A813E5B22E443C7009A7BB5 /* robot.usdz in Resources */,
 				1AEFE4BE22AAC04300B28D1C /* redchair.usdz in Resources */,
 				1AEFE4BA22AAC04300B28D1C /* wateringcan.usdz in Resources */,
 				1AEFE4AE22AAB73C00B28D1C /* DetailTableViewCell.xib in Resources */,
@@ -330,15 +354,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PEJFTUUQ95;
+				DEVELOPMENT_TEAM = BV63C62662;
 				INFOPLIST_FILE = "AR Quick Look/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anandnigam.AR-Quick-Look";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,15 +375,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PEJFTUUQ95;
+				DEVELOPMENT_TEAM = BV63C62662;
 				INFOPLIST_FILE = "AR Quick Look/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anandnigam.AR-Quick-Look";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
