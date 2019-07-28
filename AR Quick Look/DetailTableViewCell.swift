@@ -9,6 +9,8 @@
 import UIKit
 
 class DetailTableViewCell: UITableViewCell {
+    
+    // Outlets for tableView cell details
 
     @IBOutlet weak var modelImageView: UIImageView!
     
